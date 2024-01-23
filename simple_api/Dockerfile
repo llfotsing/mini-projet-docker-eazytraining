@@ -12,4 +12,4 @@ RUN  pip install flask==1.1.2 flask_httpauth==4.1.0 flask_simpleldap python-dote
 VOLUME /data
 EXPOSE 5000
 ENTRYPOINT ["python"]
-CMD ["./stuident_age.py"]
+CMD ["./student_age.py"]
