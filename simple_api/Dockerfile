@@ -1,6 +1,6 @@
 FROM python:2.7-buster 
 # maintainer information
-LABEL Landry <FOTSING landrycfotsing@gmail.com>
+LABEL Landry FOTSING <landrycfotsing@gmail.com>
 # Set the working directory
 WORKDIR /
 # Copy the source code of the API to build the image
