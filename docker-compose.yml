@@ -1,0 +1,28 @@
+version: '3'
+services:
+  webapp:
+    image: php:apache
+    ports:
+      - "8080:80"
+    environment:
+      - USERNAME=toto
+      - PASSWORD=python
+    volumes:
+      - ./website:/var/www/html
+    depends_on:
+      - api
+    networks:
+      - student_list_network
+  api:
+    build: 
+      context: ./simple_api
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./student_age.json:/data/student_age.json
+    networks:
+      - student_list_network
+      
+networks:
+  student_list_network:
