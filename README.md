@@ -21,14 +21,16 @@ Linkedln : https://www.linkedin.com/in/landry-fotsing-55ba181a0/
 ## Application
 
 
-The application "*student_list*" enables POZOS to show the list of the student with their age.
+We have an application "*student_list*" build by POZOS (an IT company) which is running on a single server with any scalability and any high availability. The application  enables POZOS to show the list of the student with their age.
+
+The goal is to ensure that the existing infrastructure can be scalable, easily deployed with a maximum of automation.
 
 student_list has two modules:
 
 - the first module is a REST API (with basic authentication needed) who send the desire list of the student based on JSON file
 - The second module is a web app written in HTML + PHP who enable end-user to get a list of students
 
-Your work is to build one container for each module an make them interact with each other
+my work is to build one container for each module an make them interact with each other.
 
 
 ```bash 
