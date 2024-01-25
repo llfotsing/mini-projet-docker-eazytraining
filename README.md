@@ -63,9 +63,10 @@ Here are the files that you will find in my delivery. I listed them with their r
 Considering you just have cloned this repository, you have to follow those steps to get the 'student_list' application ready :
 1. go to the project directory and build the api container image :
 
-```cd ./mini-projet-docker/simple_api
-docker build . -t api.student_list.img
-docker images;
+```
+cd ./mini-projet-docker-eazytraining/simple_api
+docker build . -t api.student_list
+docker images
  ```
 2. 
   
