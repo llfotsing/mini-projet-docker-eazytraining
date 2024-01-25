@@ -40,6 +40,24 @@ my work is to build one container for each module an make them interact with eac
 
 **Congratulation! Now you are ready for the next step (docker-compose.yml)**
 
+## my work
+
+like i said early, my work is to build one container for each module an make them interact with each other.
+
+Firstly, I will introduce to you the six files of this project and their role
+
+Then, I'll show you how I built and tested the architecture
+
+## Project files
+
+Here are the files that you will find in my delivery. I listed them with their role.
+
+- docker-compose.yml: to launch the application (API and web app)
+- simple_api/Dockerfile: to build the API image with the source code in it
+- simple_api/student_age.py: contains the source code of the API in python
+- simple_api/student_age.json: contains student name with age on JSON format
+- index.php: PHP  page where end-user will be connected to interact with the service to list students with their age.
+  
 ## Infrastructure As Code (5 points)
 
 After testing your API image, you need to put all together and deploy it, using docker-compose.
