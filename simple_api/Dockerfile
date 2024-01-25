@@ -1,4 +1,4 @@
-FROM python:3.8-buster 
+FROM python:2.7-buster 
 # maintainer information
 LABEL Landry FOTSING <landrycfotsing@gmail.com>
 # Set the working directory
