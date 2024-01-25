@@ -57,6 +57,17 @@ Here are the files that you will find in my delivery. I listed them with their r
 - simple_api/student_age.py: contains the source code of the API in python
 - simple_api/student_age.json: contains student name with age on JSON format
 - index.php: PHP  page where end-user will be connected to interact with the service to list students with their age.
+
+## Build and test
+
+Considering you just have cloned this repository, you have to follow those steps to get the 'student_list' application ready :
+1. go to the project directory and build the api container image :
+
+```cd ./mini-projet-docker/simple_api
+docker build . -t api.student_list.img
+docker images;
+ ```
+2. 
   
 ## Infrastructure As Code (5 points)
 
