@@ -89,7 +89,28 @@ The api backend container is listening to the 5000 port. This internal port can 
 You should to update the following line in the index.php file before running the website container to make api_ip_or_name and port fit your deployment ``$url = http://<api_ip_or_name:port>/pozos/api/v1.0/get_student_ages``.
 
 The line should become ``$url = http://api.student_list:5000/pozos/api/v1.0/get_student_ages``
-  
+
+5. Run the frontend webapp container
+
+```
+docker run --rm -d --name=webapp.student_list -p 80:80 --network=student_list.network -v ./website/:/var/www/html -e USERNAME=toto -e PASSWORD=python php:apache
+docker ps
+```
+![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/105c8040-fbc3-42ec-b042-dcf434d9c5a7)
+
+![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/644655e9-a6d1-4ec0-a9f9-de4045ea23cc)
+
+6. Test the api through the frontend
+
+- ** Test using command line**
+  The next command will ask the frontend container to request the backend api and show you the output back.
+  ```
+  docker exec webapp.student_list curl -u toto:python -X GET http://api.student_list:5000/pozos/api/v1.0/get_student_ages
+  ```
+
+  ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/3f244545-eab5-4e5b-b201-ac36fe46b5e4)
+
+
 ## Infrastructure As Code (5 points)
 
 After testing your API image, you need to put all together and deploy it, using docker-compose.
