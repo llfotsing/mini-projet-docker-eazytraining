@@ -68,6 +68,8 @@ cd ./mini-projet-docker-eazytraining/simple_api
 docker build . -t api.student_list
 docker images
  ```
+![Uploading image.jpg…]()
+
 2. 
   
 ## Infrastructure As Code (5 points)
