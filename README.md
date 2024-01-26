@@ -121,3 +121,12 @@ docker ps
 
   ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/b4fe505f-b2c2-40a7-b3bf-790b62b70cdf)
 
+7. Clean the workspace
+
+```
+docker stop api.student_list
+docker stop webapp.student_list
+docker network rm student_list.network
+docker network ls
+docker ps
+```
