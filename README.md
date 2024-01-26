@@ -79,6 +79,17 @@ docker network ls
 ```
 ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/d74c54e3-1f8d-4a4d-9956-6f831640f089)
 
+3. Move back to the main project directory and run the backend api container:
+
+```
+cd ..
+docker run --rm -d --name=api.student_list --network=student_list.network -v ./simple_api/:/data/ api.student_list
+docker ps
+```
+![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/76a7789d-73e7-49db-a776-e605b881737a)
+
+The api backend container is listening to the 5000 port. This internal port can be reached by another container from the same network.
+
   
 ## Infrastructure As Code (5 points)
 
