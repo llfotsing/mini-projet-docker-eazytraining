@@ -71,7 +71,14 @@ docker images
 ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/8dfaa05d-e454-4502-b8c2-4d9f90cc4027)
 
 
-2. 
+2. Create a bridge-type network for the two containers to be able to contact each other by their names thanks to dns functions :
+
+```
+docker network create student_list.network --driver=bridge
+docker network ls
+```
+![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/d74c54e3-1f8d-4a4d-9956-6f831640f089)
+
   
 ## Infrastructure As Code (5 points)
 
