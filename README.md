@@ -86,7 +86,8 @@ cd ..
 docker run --rm -d --name=api.student_list --network=student_list.network -v ./simple_api/:/data/ api.student_list
 docker ps
 ```
-![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/76a7789d-73e7-49db-a776-e605b881737a)
+![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/54eed2e5-53f4-4e15-9586-f6e546759cb1)
+
 
 The api backend container is listening to the 5000 port. This internal port can be reached by another container from the same network.
 
