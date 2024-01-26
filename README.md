@@ -70,6 +70,9 @@ docker images
  ```
 ![Uploading image.jpg…]()
 
+![Uploading 57.png…]()
+
+
 2. 
   
 ## Infrastructure As Code (5 points)
