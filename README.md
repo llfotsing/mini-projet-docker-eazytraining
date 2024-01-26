@@ -119,7 +119,8 @@ docker ps
 
   ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/354ecb45-be50-42d3-a849-b64a46797103)
 
-  ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/b4fe505f-b2c2-40a7-b3bf-790b62b70cdf)
+  ![img](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/aa1b8c8b-c005-41f7-a31b-ef81459d29ec)
+
 
 7. Clean the workspace
 
