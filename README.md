@@ -111,6 +111,18 @@ docker ps
 
   ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/3f244545-eab5-4e5b-b201-ac36fe46b5e4)
 
+- **Test using a web browser**
+
+  You can get your ip-adress by using the following command: ``hostname -i``
+
+  If you are working on Playwithdocker like me, just ``open the 80 port``
+
+  ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/354ecb45-be50-42d3-a849-b64a46797103)
+
+  ![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/b4fe505f-b2c2-40a7-b3bf-790b62b70cdf)
+
+
+
 
 ## Infrastructure As Code (5 points)
 
