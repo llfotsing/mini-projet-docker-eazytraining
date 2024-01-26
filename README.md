@@ -33,13 +33,6 @@ student_list has two modules:
 my work is to build one container for each module an make them interact with each other.
 
 
-```bash 
- $url = 'http://<api_ip_or_name:port>/pozos/api/v1.0/get_student_ages';
- ```
-
-
-**Congratulation! Now you are ready for the next step (docker-compose.yml)**
-
 ## my work
 
 like i said early, my work is to build one container for each module an make them interact with each other.
@@ -93,9 +86,9 @@ The api backend container is listening to the 5000 port. This internal port can 
 
 4. Update the index.php file
 
-You should to update the following line in the index.php file before running the website container to make api_ip_or_name and port fit your deployment $url = 'http://<api_ip_or_name:port>/pozos/api/v1.0/get_student_ages';.
+You should to update the following line in the index.php file before running the website container to make api_ip_or_name and port fit your deployment ``$url = http://<api_ip_or_name:port>/pozos/api/v1.0/get_student_ages``.
 
-The line should become ``$url = http://api.student_list:5000/pozos/api/v1.0/get_student_ages;``
+The line should become ``$url = http://api.student_list:5000/pozos/api/v1.0/get_student_ages``
   
 ## Infrastructure As Code (5 points)
 
