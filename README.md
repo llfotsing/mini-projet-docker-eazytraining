@@ -102,7 +102,7 @@ docker ps
 
 6. Test the api through the frontend
 
-- ** Test using command line**
+- **Test using command line**
   The next command will ask the frontend container to request the backend api and show you the output back.
   ```
   docker exec webapp.student_list curl -u toto:python -X GET http://api.student_list:5000/pozos/api/v1.0/get_student_ages
