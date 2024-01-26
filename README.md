@@ -68,9 +68,7 @@ cd ./mini-projet-docker-eazytraining/simple_api
 docker build . -t api.student_list
 docker images
  ```
-![Uploading image.jpg…]()
-
-![Uploading 57.png…]()
+![image](https://github.com/llfotsing/mini-projet-docker-eazytraining/assets/98328155/8dfaa05d-e454-4502-b8c2-4d9f90cc4027)
 
 
 2. 
